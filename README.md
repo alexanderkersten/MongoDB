@@ -6,4 +6,6 @@ Crear 1000 alumnos en la colección alumno en la base de datos knowtech con los 
 - Dni: cadena de caracteres
 
 Comando:
+```
 mongo localhost:27017/knowtech Inserts.js
+```
