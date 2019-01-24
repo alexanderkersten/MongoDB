@@ -5,8 +5,8 @@ db.alumno.drop();
 var nombres = ["Pepe", "Juan", "Jose", "Jordi", "Maria"];
 var apellidos = ["Fernandez", "Hernandez", "Pujol", "Rico", "Sanchez"];
 
-// Crear 1000 alumnos con los campos: IdAlumno, Nombre, Apellidos y Dni
-for (i = 1; i <= 1000; i++) {
+// Crear 10000 alumnos con los campos: IdAlumno, Nombre, Apellidos y Dni
+for (i = 1; i <= 10000; i++) {
 	var nombre = nombres[Math.floor(Math.random() * nombres.length)];
 	var apellido1 = apellidos[Math.floor(Math.random() * apellidos.length)];
 	var apellido2 = apellidos[Math.floor(Math.random() * apellidos.length)];
