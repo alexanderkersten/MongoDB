@@ -1,15 +1,7 @@
-// bbdd knowtech
-// colección alumno
-// IdAlumno (entero)
-// Nombre (string)
-// Apellidos (string)
-// Dni (string)
+// Asegurar que no hay alumnos en la colleción
+db.alumno.drop();
 
-// 10000 Alumnos
-// for
-
-use knowtech
-
+// Crear 1000 alumnos con los campos: IdAlumno, Nombre, Apellidos y Dni
 for (i = 1; i <= 1000; i++) {
 	db.alumno.insertOne(
 		{
@@ -21,4 +13,8 @@ for (i = 1; i <= 1000; i++) {
 	);
 }
 
-db.alumno.drop();
+// Comprobar cuantos alumnos hay
+db.alumno.count();
+
+// Mostrar un alumno de ejemplo
+db.alumno.findOne();
