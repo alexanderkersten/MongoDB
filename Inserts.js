@@ -1,4 +1,4 @@
-// Asegurar que no hay alumnos en la colleción
+// Asegurar que no hay alumnos en la colección
 db.alumno.drop();
 
 // Crear 1000 alumnos con los campos: IdAlumno, Nombre, Apellidos y Dni
