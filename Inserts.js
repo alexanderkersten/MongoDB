@@ -5,7 +5,7 @@ db.alumno.drop();
 for (i = 1; i <= 1000; i++) {
 	db.alumno.insertOne(
 		{
-			IdAlumno: NumberInt(31415),
+			IdAlumno: NumberInt(i),
 			Nombre: "Hola",
 			Apellidos: "Mundo",
 			Dni: "12345678A"
