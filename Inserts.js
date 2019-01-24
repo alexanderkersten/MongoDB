@@ -14,7 +14,11 @@ for (i = 1; i <= 1000; i++) {
 }
 
 // Comprobar cuantos alumnos hay
-db.alumno.count();
+print();
+print("Documents:");
+printjson(db.alumno.count());
 
 // Mostrar un alumno de ejemplo
-db.alumno.findOne();
+print();
+print("Example:");
+printjson(db.alumno.findOne());
